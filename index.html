@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <title>NBA Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand headline-font" href="#">NBA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nba_card">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nba">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact"> Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.sportzcraazy.com/wp-content/uploads/2018/08/NBA.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>National Basketball Asosiation</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.nba.com/manage/2020/10/nba-basketball-general-view-iso-784x523.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.businessupturn.com/wp-content/uploads/2023/03/08084730/NBA-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="nba">
+        <div class="container">
+          <div class="row mt-5" id="me">
+            <div class="col">
+              <img src="data:image/png;base64,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" width="400" height="400" class="w-100" alt="..."/>
+        </div>
+        <div class="col-md-6">
+        <div class="caption-me text-black">
+          <h2 class="headline-font">NBA</h2>
+          <div class="text-white"></div>
+          <p class="paragraf-font"> NBA (National Basketball Association) adalah liga basket profesional di Amerika Serikat dan Kanada. Liga ini terdiri dari 30 tim yang dibagi menjadi dua konferensi, yaitu Eastern Conference dan Western Conference. Setiap konferensi terdiri dari 15 tim yang masing-masing bermain sebanyak 82 pertandingan selama musim reguler, yang berlangsung dari bulan Oktober hingga April. Setelah musim reguler, delapan tim teratas dari masing-masing konferensi masuk ke babak playoff untuk memperebutkan gelar juara NBA.
+            <p> NBA terkenal dengan pemain-pemain bintangnya, seperti LeBron James, Kevin Durant, Steph Curry, dan James Harden. Selain itu, NBA juga dikenal dengan aturan-aturan uniknya, seperti waktu permainan yang dibagi menjadi empat quarter, terdapat tiga poin untuk tembakan dari luar garis tiga poin, dan pelanggaran yang dikenakan ketika seorang pemain bergerak terlalu banyak dengan bola (traveling) atau menahan bola terlalu lama (violation). </p>
+              <p> NBA juga memiliki sejarah yang panjang dan kaya, dengan banyak tim dan pemain legendaris seperti Michael Jordan, Kobe Bryant, dan Magic Johnson yang telah menciptakan sejarah di dunia basket. Selain itu, NBA juga merupakan liga yang sangat populer di seluruh dunia dan menarik banyak penggemar basket dari berbagai negara. Regenerate response.</p>
+              <p> Tim NBA terdiri dari Boston Celtics, New York Knicks, Philadelphia 76ers, Toronto Raptors, Golden State Warriors, Cleveland Cavaliers, Detroit Pistons, Indiana Pacers, Milwauke Bucks, Miami Heat, Atlanta Hawks, Chicago Bulls, Dallas Mavericks, Washington Wizards, Oklahama City Thunder, Los Angeles Lakers, Sacramento Kings, Houston Rockets, San Antonio Spurs, Phoenix Suns</p>
+          </div>
+        </div>
+      </div><br></br>
+    </section>
+    <section id="nba_card">
+    <div class="card-group">
+      <div class="card">
+        <img src="https://cdn.vox-cdn.com/thumbor/V3yb9t2B8UOTBfVy6h1JgbloKPs=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22259981/NBAScheduleLessons_Getty_AP_Ringer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title headline-font">Regular Season</h5>
+          <p class="card-text">NBA menggelar musim reguler dengan setiap tim sebanyak bertanding 82 kali melawan klub-klub lain, dengan masing-masing 41 pertandingan kandang dan tandang. Rincian jadwalnya, setiap tim memainkan empat pertandingan melawan tim yang satu divisi, empat pertandingan melawan enam tim dari dua divisi yang lain, dan sisanya (empat tim) dimainkan sebanyak tiga pertandingan. Terakhir, setiap tim bertanding dengan semua tim dari wilayah yang berbeda, masing-masing dua pertandingan. Pada Hari Natal, di mana kompetisi atau liga lain berlibur, NBA tetap menggelar pertandingan (berlangsung sejak tahun 1947).</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://pbs.twimg.com/media/FtTitLSWYAU4HBU.jpg:large" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title headline-font">PlayOff </h5>
+          <p class="card-text">Pada babak Playoff, sistem yang digunakan dari babak pertama sampai final adalah "best-of-seven" (siapa yang menang 4 kali duluan dari total 7 pertandingan).
+
+            Babak Playoff dimulai pada akhir April dan diikuti oleh 16 tim (8 dari wilayah timur dan 8 dari wilayah barat) yang mempunyai rekor terbaik atau juara divisi, berhak untuk lanjut ke babak Playoff. Dalam babak Playoff, 8 tim dari setiap wilayah akan diadu dengan format, tim ke-1 (yang terbaik di wilayah) melawan tim ke-8 (urutan 8 di wilayah, tim ke-2 melawan tim ke-7, tim ke-3 melawan tim ke-6 dan tim ke-5 melawan tim ke-4). Tim dengan rekor menang lebih banyak di musim reguler akan diberikan keuntungan bermain menjadi tuan rumah lebih banyak di babak Playoff.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://cdn.vox-cdn.com/thumbor/oE9rmbArnDmcornXBOVRGnVasek=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22504160/Play_In_Tournament_Bracket_State_Farm_v2_1568x882.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title headline-font">Card title</h5>
+          <p class="card-text">Semenjak musim 2020-2021, jumlah pertandingan NBA dalam musim reguler berkurang akibat wabah Covid-19. Hal ini mengakibatkan dibentuknya sebuah format pertandingan baru untuk menentukan tim mana yang akan bermain dalam Playoff. Play-in akan menentukan tim urutan ke-8 dan ke-7 dari masing-masing wilayah yang akan bermain di playoff.</p>
+            <p> Tim yang akan bermain dalam Play-in adalah tim dengan urutan ke-10, ke-9, ke-8, dan ke-7 dari masing-masing wilayah. Tim urutan ke-8 akan bertanding dengan urutan ke-7 diwilayahnya, pemenang dari pertandingan ini akan menduduki posisi ke-7 dalam playoff, sedangkan tim kalah akan menghadapi pemenang dari perandingan tim ke-10 dan ke-9. Tim ke-10 dan ke-9 akan bertanding, pemenang dari pertandingan ini akan bertanding melawan tim yang kalah dari pertandingan antara tim ke-7 dan ke-8 untuk memperebutkan posisi urutan ke-8 dalam playoff.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="headline-font">Contact </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
